@@ -12,7 +12,7 @@ You can find source code used in my Youtube video in this repo.
 
 # Video List:
 
-[Tiny Platformer: Random Walker](https://youtu.be/tAknJlrlV7k)
+[Tiny Platformer: a Random Walker](https://youtu.be/tAknJlrlV7k)
 
 # Why I've created this project?
 
