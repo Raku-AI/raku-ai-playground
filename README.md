@@ -14,10 +14,6 @@ You can find source code used in my Youtube video in this repo.
 
 [Tiny Platformer: a Random Walker](https://youtu.be/tAknJlrlV7k)
 
-# Why I've created this project?
-
-I hope this project could spawn a lot of AI algorithms written in Raku so that in the end we can collect these algorithms and create a fully-fledged AI library for Raku.
-
 # How can you support this project?
 
 1. You can directly contribute code to this project.
