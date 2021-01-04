@@ -3,13 +3,12 @@ use HTTP::Server::Tiny;
 use URI::Encode;
 use MIME::Base64;
 
+use lib ".";
+use agents::random-walker;
+
 my $port = 8088;
 
 my $host = "127.0.0.1";
-
-sub nextAction() {
-    return ["left", "right", "jump"][3.rand.Int];
-}
 
 sub contentType($uri) {
     if $uri.ends-with("html") {
