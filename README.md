@@ -6,6 +6,14 @@ Watch all the video clips about Raku and AI on [Yanzhan's Youtube Channel](https
 
 You can find source code used in my Youtube video in this repo.
 
+# Prerequisite:
+
+You should install raku dependencies before running any playground.
+
+```
+zef install . --force-test
+```
+
 # PlayGround List:
 
 [Tiny Platformer](https://github.com/yangyanzhan/raku-ai-playground/tree/main/tiny-platformer)
