@@ -1,0 +1,12 @@
+{
+    "perl"        : "6.*",
+    "name"        : "Raku-AI-Playground",
+    "version"     : "1.0",
+    "description" : "An AI playground for Raku",
+    "depends"     : ["JSON::Tiny", "HTTP::Server::Tiny", "URI::Encode", "MIME::Base64"],
+    "license":    "MIT",
+    "provides"    : {
+    },
+    "source-url"  : "git@github.com:yangyanzhan/raku-ai-playground.git",
+    "author": "yangyanzhan@gmail.com"
+}
