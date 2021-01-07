@@ -4,6 +4,8 @@ Raku AI PlayGround
 
 Watch all the video clips about Raku and AI on [Yanzhan's Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexukpG0DA) .
 
+[Raku AI slack channel](https://join.slack.com/t/rakuai/shared_invite/zt-ky89h6jk-uFd4NXJzqq7vt53pp7~nWA)
+
 You can find source code used in my Youtube video in this repo.
 
 # Prerequisite:
@@ -27,6 +29,10 @@ zef install . --force-test
 1. You can directly contribute code to this project.
 
 2. You can follow me at GitHub or Youtube, and then leave a comment to give suggestions to this project.
+
+3. You can raise issues for this project.
+
+4. You can join the [Raku AI slack channel](https://join.slack.com/t/rakuai/shared_invite/zt-ky89h6jk-uFd4NXJzqq7vt53pp7~nWA) to participate in this project.
 
 # About Me
 
