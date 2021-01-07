@@ -33,12 +33,12 @@ HTTP::Server::Tiny.new(:$host, :$port).run(sub ($env) {
         my $image = $query.substr("image=data%3Aimage%2Fpng%3Bbase64%2C".chars);
         $image = uri_decode_component($image);
         $image = MIME::Base64.decode($image);
-        $count++;
-        my $fh = open "$count.png", :rw, :bin;
-        $fh.write($image);
-        $fh.close();
+        # $count++;
+        # my $fh = open "$count.png", :rw, :bin;
+        # $fh.write($image);
+        # $fh.close();
         my %action = action => nextAction($image);
-        unlink "$count.png";
+        # unlink "$count.png";
         my $end = DateTime.new(now);
         say "decision duration: {$end - $start}s";
         my $channel = Channel.new;
