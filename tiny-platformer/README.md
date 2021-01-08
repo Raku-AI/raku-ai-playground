@@ -1,17 +1,39 @@
 # How to use it?
 
-Just Raku IT!
+1. Run the game
 
 ```
-raku start.raku
+cd game && raku start.raku
 ```
+
+Or you can use any static server to serve this game.
+
+2. Run the AI engine
+
+```
+raku loop.raku
+```
+
+3. Switch to the game window and see the effects of the AI agents.
+
+# Note
+
+only tested on Mac
 
 # Dependencies
 
-### lodepng library
+### opencv library
 
 ```
-cd png && sh build.sh # to build the lodepng library.
+build and install opencv by zef
+```
+
+### cliclick
+
+This is a mouse click and keystroke terminal utility on Mac.
+
+```
+brew install cliclick
 ```
 
 # Disclaimer

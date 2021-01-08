@@ -358,7 +358,7 @@
       fpsmeter = new FPSMeter({ decimals: 0, graph: true, theme: 'dark', left: '5px' });
   
   function frame() {
-    fpsmeter.tickStart();
+    // fpsmeter.tickStart();
     now = timestamp();
     dt = dt + Math.min(1, (now - last) / 1000);
     while(dt > step) {
@@ -368,12 +368,14 @@
     render(ctx, counter, dt);
     last = now;
     counter++;
-    fpsmeter.tick();
+    // fpsmeter.tick();
     requestAnimationFrame(frame, canvas);
   }
   
-  document.body.addEventListener('keydown', function(ev) { return onkey(ev, ev.keyCode, true);  }, false);
-  document.body.addEventListener('keyup',   function(ev) { return onkey(ev, ev.keyCode, false); }, false);
+  document.body.addEventListener('keydown', function(ev) { return onkey(ev, ev.keyCode, true);   }, false);
+  document.body.addEventListener('keyup',   function(ev) { setTimeout(function() {
+    return onkey(ev, ev.keyCode, false);
+  }, 200); }, false);
     window.onkey = onkey;
 
   get("level.json", function(req) {
