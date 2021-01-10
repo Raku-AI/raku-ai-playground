@@ -99,6 +99,8 @@ zef install . --force-test
 
 [Tiny Platformer](https://github.com/Raku-AI/raku-ai-playground/tree/main/tiny-platformer)
 
+![Tiny Platformer Illustration](https://github.com/Raku-AI/raku-ai-playground/blob/main/resources/tiny-platformer.gif)
+
 # Video List:
 
 [Tiny Platformer: a Random Walker](https://youtu.be/tAknJlrlV7k)
