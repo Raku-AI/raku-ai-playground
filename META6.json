@@ -7,6 +7,6 @@
     "license":    "MIT",
     "provides"    : {
     },
-    "source-url"  : "git@github.com:yangyanzhan/raku-ai-playground.git",
-    "author": "yangyanzhan@gmail.com"
+    "source-url"  : "git@github.com:Raku-AI/raku-ai-playground.git",
+    "author": "Raku AI organization"
 }
