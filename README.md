@@ -52,40 +52,40 @@ For an AI agent, it should have the abilities to do path finding, state evaluati
 
 # Roadmap
 
-- [] A quick sensor that could turn screenshot into OpenCV matrix (not including entity map generation since it's task-dependent) for at least 10 fps.
-- [] A sensor that could work on MacOS, Linux and Windows.
-- [] A motor that could send keystrokes and mouse events on MacOS, Linux and Windows.
-- [] A pattern matching slide window algorithm that could turn an 8-bit like game into a map of entities.
-- [] A generalized pattern matching slide window algorithm that could turn any game into a map of entities (with glitches).
-- [] TensorFlow integration to have the ability of object detection. (The speed of object detection would be relatively slow, so maybe most of the time we have to turn to the slide window algorithm)
-- [] A star Path Finding utility.
-- [] Hierarchical Path Finding utility.
-- [] Any-angle Path Finding utility.
-- [] Alpha Beta Pruning for state searching.
-- [] A framework of genetic algorithm for heuristic state searching.
-- [] Memorization of strategies and states so that we can replay the game. (A loadable and replayable log system)
+- [ ] A quick sensor that could turn screenshot into OpenCV matrix (not including entity map generation since it's task-dependent) for at least 10 fps.
+- [ ] A sensor that could work on MacOS, Linux and Windows.
+- [ ] A motor that could send keystrokes and mouse events on MacOS, Linux and Windows.
+- [ ] A pattern matching slide window algorithm that could turn an 8-bit like game into a map of entities.
+- [ ] A generalized pattern matching slide window algorithm that could turn any game into a map of entities (with glitches).
+- [ ] TensorFlow integration to have the ability of object detection. (The speed of object detection would be relatively slow, so maybe most of the time we have to turn to the slide window algorithm)
+- [ ] A star Path Finding utility.
+- [ ] Hierarchical Path Finding utility.
+- [ ] Any-angle Path Finding utility.
+- [ ] Alpha Beta Pruning for state searching.
+- [ ] A framework of genetic algorithm for heuristic state searching.
+- [ ] Memorization of strategies and states so that we can replay the game. (A loadable and replayable log system)
 
 # Milestone
 
 8-bit or tile-based games:
 
-- [] An AI agent that could eliminate all the enemies and collect all the gold in the game of tiny platformer.
+- [ ] An AI agent that could eliminate all the enemies and collect all the gold in the game of tiny platformer.
 
-- [] An AI agent that could play super mario and pass all 8 stages.
+- [ ] An AI agent that could play super mario and pass all 8 stages.
 
-- [] An AI agent that could play 8-bit tank game and could outplay the human player.
+- [ ] An AI agent that could play 8-bit tank game and could outplay the human player.
 
-- [] An AI agent that could play music game breaking the record.
+- [ ] An AI agent that could play music game breaking the record.
 
-- [] An AI agent that could play Contra without losing a single life.
+- [ ] An AI agent that could play Contra without losing a single life.
 
 realtime strategy games:
 
-- [] Make a realtime object detection system for a rts game.
+- [ ] Make a realtime object detection system for a rts game.
 
 or
 
-- [] Just find a rts game with exposed API that could safe the effort of object detection (like in StarCraft II).
+- [ ] Just find a rts game with exposed API that could safe the effort of object detection (like in StarCraft II).
 
 # Prerequisite:
 
@@ -113,3 +113,8 @@ zef install . --force-test
 
 4. You can follow [Yanzhan's Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexukpG0DA) so that we can make more videos about the Raku AI project.
 
+# Reference Materials:
+
+Our work is based upon the following materials.
+
+[Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/)
