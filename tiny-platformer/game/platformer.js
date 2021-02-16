@@ -354,8 +354,8 @@
   //-------------------------------------------------------------------------
   
   var counter = 0, dt = 0, now,
-      last = timestamp(),
-      fpsmeter = new FPSMeter({ decimals: 0, graph: true, theme: 'dark', left: '5px' });
+      last = timestamp();
+      // fpsmeter = new FPSMeter({ decimals: 0, graph: true, theme: 'dark', left: '5px' });
   
   function frame() {
     // fpsmeter.tickStart();
